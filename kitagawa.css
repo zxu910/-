@@ -1,0 +1,114 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+
+body{
+
+    margin-left:5%;
+    margin-right:5%;
+    background-image:url("img/background.png")
+}
+
+img{
+
+    max-width:30%;
+    margin:0 auto;
+    margin-left:10%;
+   
+}
+
+img:hover{
+
+    cursor:pointer;
+}
+
+p{
+    
+        margin: 0 5% 0 5%;
+    }
+
+
+.topic{
+
+    color:black;
+    font-size:25px;
+    margin-left:3%;
+}
+
+.first-paragraph p{
+
+    font-size:20px;
+}
+
+
+
+
+
+
+.one-third p{
+
+    float:left;
+    width:50%;
+    font-size:20px;
+}
+
+.one-third h2{
+
+    color:#336774;
+    font-family:'cwTeXKai',serif;
+}
+
+#back-to-page{
+
+
+    text-align:center;
+    width:100%;
+    margin-top:10%;
+    color:white;
+   
+    background-color: #232424;
+    opacity:0.3;
+
+}
+
+#back-to-page:hover{
+
+    cursor:pointer;
+}
+
+/* rwd 750px */
+
+
+@media screen and (max-width:750px){
+
+    .one-third p{
+
+        width:100%;
+        float:left;
+        margin:0 10% 0 0;
+    }
+
+  aside{
+
+    width:100%;
+    
+   
+  }
+
+   .one-third img{
+
+    margin-top:15%;
+    min-width:200px;
+
+    
+   }
+
+   p{
+
+    font-size:12px;
+   }
+
+
+
+    
+

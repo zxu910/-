@@ -1,0 +1,181 @@
+
+
+
+*{
+    
+        margin:0;
+        padding:0;
+        border:0;
+    
+    }
+
+img{
+
+    width:100%;
+    margin:0 auto;
+}
+
+img:hover{
+
+    cursor:pointer;
+}
+
+ul ,li{
+
+   list-style: none;
+}
+
+.nav-pic img{
+
+    z-index:0;
+}
+
+
+.nav-pic img:hover{
+
+    opacity:0.3;
+    z-index:2;
+    background-image: url(img/paper.jpg);
+   
+
+
+
+}
+
+
+    
+
+body{
+
+
+    background-color:black;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#head-inner{
+
+    width:100%;
+    margin-left:10%;
+  
+    white-space:normal;
+}
+
+#head-inner li{
+    
+    
+     float:left;
+     margin:20px 5px 10px 0px;
+  
+     }
+
+.name{
+
+    display:none;
+}
+
+.banner li{
+
+    width:2%;
+    height:8px;
+    background-color: #AF2D2D;
+    text-align:center;
+    margin:  0.2% 0.5% 0 0;
+    float:left;
+    position:relative;
+    left:45%;
+    border-radius:5px;
+
+}
+
+.banner li:hover{
+
+    background-color: #21538D;
+}
+
+#utagawa{
+
+display:block;
+}
+#katsushika{
+
+    display:none;
+
+
+}
+
+#kitagawa{
+
+    display:none;
+
+
+}
+
+
+
+
+/*   460px rwd */
+
+     @media screen and (max-width:460px){
+
+
+        body{
+
+            margin-left:-8%;
+            margin-right:11%;
+            margin-top:0px;
+        }
+
+ 
+       .name{
+        
+            display:block;
+            height:auto;
+            width:100%;
+           margin:0;
+           margin-bottom:80px;
+           padding:0;
+           
+        }
+
+        .banner{
+
+            display:none;
+        }
+
+        .nav-pic{
+            display:none;
+   
+          }
+   
+
+        
+     }
+
+
+     /* 1356px rwd */
+
+     @media screen and (max-width:1356px){
+
+
+
+        .nav-pic{
+
+           max-width:20%;
+           
+        }
+
+        #head-inner{
+
+            margin-right:10%;
+        }
+
+     }
+
+
+
+
+
+
+
+

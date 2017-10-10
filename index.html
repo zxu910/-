@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+    <script>
+            
+                           function current(i){
+            
+                                    if(i==1){
+            
+                                        document.getElementById("utagawa").style.display="block";
+                                        document.getElementById("katsushika").style.display="none";
+                                        document.getElementById("kitagawa").style.display="none";
+            
+            
+                                    }else if(i==2){
+            
+                                        document.getElementById("utagawa").style.display="none";
+                                        document.getElementById("katsushika").style.display="block";
+                                        document.getElementById("kitagawa").style.display="none";
+            
+            
+            
+            
+            
+                                    }else if(i==3){
+            
+                                        document.getElementById("utagawa").style.display="none";
+                                        document.getElementById("katsushika").style.display="none";
+                                        document.getElementById("kitagawa").style.display="block";
+            
+                                    }
+            
+                                    else{
+            
+                                        document.getElementById("utagawa").style.display="block";
+                                        document.getElementById("katsushika").style.display="none";
+                                        document.getElementById("kitagawa").style.display="none";
+            
+            
+                                    }
+                                  }
+                              
+                              
+                              </script>
+            
+</head>
+<body>
+
+    <div>
+         <header>
+               <div id="head-inner">
+                 
+                   
+                   <nav>
+                        <ul>          
+                           
+                            <li class="nav-pic"><img src="img/kitagawa-1.jpg" onclick="location.href='kitagawa.html'" title="點此連結到喜多川歌麿"></li>
+                            <li class="nav-pic"><img src="img/katsushika-1.jpg" onclick="location.href='katsushika.html'"title="點此連結到葛飾北齋"></li>
+                            <li class="nav-pic"><img src="img/utagawa-1.jpg" onclick="location.href='utagawa.html'"title="點此連結到歌川廣重"></li>
+                            <li class="nav-pic"><img src="img/kobayashi-1.jpg" onclick="location.href='kobayashi.html'"title="點此連結到小林清親"></li>
+                          
+                        </ul>
+
+                        <ul>
+                            <li class="name"><img src="img/kitagawa-rwd.png" onclick="location.href='kitagawa.html'" title="點此連結到喜多川歌麿"></li>
+                            <li class="name"><img src="img/katsushika-rwd.png" onclick="location.href='katsushika.html'" title="點此連結到葛飾北齋"></li>
+                            <li class="name"><img src="img/utagawa-rwd.png"onclick="location.href='utagawa.html'" title="點此連結到歌川廣重"></li>
+                            <li class="name"><img src="img/kobayashi-rwd.png" onclick="location.href='kobayashi.html'" title="點此連結到小林清親"></li>
+                           
+
+
+                        </ul>
+                   </nav>
+               </div>
+
+               <section class="banner">
+
+                    <div id="utagawa" >
+                        <img src="img/picmain.png"  onclick="location.href='utagawa.html'"  title="點此連結到歌川廣重">
+                    </div>
+
+                    <div id="katsushika" >
+                            <img src="img/katsushika-banner.png"  onclick="location.href='katsushika.html'" title="點此連結到葛飾北齋">
+                        </div>
+
+                    <div id="kitagawa" >
+                            <img src="img/kitagawa-banner.png"  onclick="location.href='kitagawa.html'" title="點此連結到喜多川歌麿">
+                        </div>
+
+                    <div>
+                            <img src="" alt="">
+                        </div>
+
+                   <ul>
+                       <li onmouseover="current(1)" ></li>
+                       <li onmouseover="current(2)"></li>
+                       <li onmouseover="current(3)"></li>
+                    
+                  </ul>
+
+                
+
+
+               </section>
+
+              
+
+
+
+    
+</body>
+</html>
